@@ -1,6 +1,6 @@
 
 * banlist.dat: stores the IPs/Subnets of banned nodes
-* monacoin.conf: contains configuration settings for monacoind or monacoin-qt
+* weycash.conf: contains configuration settings for monacoind or monacoin-qt
 * monacoind.pid: stores the process id of monacoind while running
 * blocks/blk000??.dat: block data (custom, 128 MiB per file); since 0.8.0
 * blocks/rev000??.dat; block undo data (custom); since 0.8.0 (format changed since pre-0.8)

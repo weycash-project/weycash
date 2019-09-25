@@ -81,7 +81,7 @@
 // Application startup time (used for uptime calculation)
 const int64_t nStartupTime = GetTime();
 
-const char * const BITCOIN_CONF_FILENAME = "monacoin.conf";
+const char * const BITCOIN_CONF_FILENAME = "weycash.conf";
 const char * const BITCOIN_PID_FILENAME = "monacoin.pid";
 
 ArgsManager gArgs;

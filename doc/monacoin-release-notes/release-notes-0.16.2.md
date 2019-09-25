@@ -148,7 +148,7 @@ This checkpoint disappears when moancoind shutdown.
 ### Checkpoint distribution
 
 Monacoinproject plans checkpoint distribution.
-To deny checkpoint, use the argument `-cmdcheckpoint=false` with monacoind or monacoin-qt or add `cmdcheckpoint=false` to your monacoin.conf. 
+To deny checkpoint, use the argument `-cmdcheckpoint=false` with monacoind or monacoin-qt or add `cmdcheckpoint=false` to your weycash.conf. 
 It is a function provided for the purpose of invalidating 51% attack on monacoin, but it is not mandatory.
 
 ### Safe mode disabled by default

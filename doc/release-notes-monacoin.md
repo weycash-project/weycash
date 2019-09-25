@@ -84,7 +84,7 @@ Changed configuration options
 -----------------------------
 
 - `-includeconf=<file>` can be used to include additional configuration files.
-  Only works inside the `monacoin.conf` file, not inside included files or from
+  Only works inside the `weycash.conf` file, not inside included files or from
   command-line. Multiple files may be included. Can be disabled from command-
   line via `-noincludeconf`. Note that multi-argument commands like
   `-includeconf` will override preceding `-noincludeconf`, i.e.
@@ -93,7 +93,7 @@ Changed configuration options
   includeconf=relative.conf
   ```
 
-  as monacoin.conf will still include `relative.conf`.
+  as weycash.conf will still include `relative.conf`.
 
 GUI changes
 -----------
@@ -124,7 +124,7 @@ same as before.
 Dynamic loading and creation of wallets
 ---------------------------------------
 
-Previously, wallets could only be loaded or created at startup, by specifying `-wallet` parameters on the command line or in the monacoin.conf file. It is now possible to load, create and unload wallets dynamically at runtime:
+Previously, wallets could only be loaded or created at startup, by specifying `-wallet` parameters on the command line or in the weycash.conf file. It is now possible to load, create and unload wallets dynamically at runtime:
 
 - Existing wallets can be loaded by calling the `loadwallet` RPC. The wallet can be specified as file/directory basename (which must be located in the `walletdir` directory), or as an absolute path to a file/directory.
 - New wallets can be created (and loaded) by calling the `createwallet` RPC. The provided name must not match a wallet file in the `walletdir` directory or the name of a wallet that is currently loaded.
