@@ -2,7 +2,7 @@
 
 *.exe
 src/monacoin
-src/monacoind
+src/weycashd
 src/monacoin-cli
 src/monacoin-tx
 src/test/test_monacoin

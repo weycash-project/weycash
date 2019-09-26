@@ -16,7 +16,7 @@ The following are some helpful notes on how to run WeyCash Core on your native p
 Unpack the files into a directory and run:
 
 - `bin/monacoin-qt` (GUI) or
-- `bin/monacoind` (headless)
+- `bin/weycashd` (headless)
 
 ### Windows
 
