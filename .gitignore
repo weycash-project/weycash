@@ -3,7 +3,7 @@
 *.exe
 src/monacoin
 src/weycashd
-src/monacoin-cli
+src/weycash-cli
 src/monacoin-tx
 src/test/test_monacoin
 src/test/test_monacoin_fuzzy

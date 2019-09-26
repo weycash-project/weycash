@@ -77,7 +77,7 @@ Notable changes since Monacoin v0.8
 ===================================
 
 - The Block data and indexes of v0.10 are incompatible with v0.8 clients.  You can upgrade from v0.8 but you downgrading is not possible.  For this reason you may want to make a backup copy of your Data Directory.
-- weycashd no longer sends RPC commands.  You must use the separate monacoin-cli command line utility.
+- weycashd no longer sends RPC commands.  You must use the separate weycash-cli command line utility.
 - Watch-Only addresses are now possible.
 
 Credits

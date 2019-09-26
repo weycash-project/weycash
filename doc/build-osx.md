@@ -72,7 +72,7 @@ Build WeyCash Core
 
         cd ~/monacoin/src
         cp weycashd /usr/local/bin/
-        cp monacoin-cli /usr/local/bin/
+        cp weycash-cli /usr/local/bin/
 
 Running
 -------
@@ -95,8 +95,8 @@ Other commands:
 -------
 
     ./src/weycashd -daemon # Starts the monacoin daemon.
-    ./src/monacoin-cli --help # Outputs a list of command-line options.
-    ./src/monacoin-cli help # Outputs a list of RPC commands when the daemon is running.
+    ./src/weycash-cli --help # Outputs a list of command-line options.
+    ./src/weycash-cli help # Outputs a list of RPC commands when the daemon is running.
 
 Notes
 -----
