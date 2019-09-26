@@ -3110,8 +3110,8 @@
         <translation>Não é possível iniciar o servidor HTTP. Verifique o debug.log para detalhes.</translation>
     </message>
     <message>
-        <source>Monacoin Core</source>
-        <translation>Monacoin Core</translation>
+        <source>WeyCash Core</source>
+        <translation>WeyCash Core</translation>
     </message>
     <message>
         <source>The %s developers</source>

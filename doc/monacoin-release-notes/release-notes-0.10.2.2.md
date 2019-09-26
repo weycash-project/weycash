@@ -1,4 +1,4 @@
-Monacoin Core version 0.10.2.2 is now available from:
+WeyCash Core version 0.10.2.2 is now available from:
 
   <https://github.com/monacoinproject/monacoin/releases>
 
@@ -25,7 +25,7 @@ Downgrade warning
 
 Because release 0.10+ and later makes use of headers-first synchronization and
 parallel block download (see further), the block files and databases are not
-backwards-compatible with pre-0.10 versions of Monacoin Core or other software:
+backwards-compatible with pre-0.10 versions of WeyCash Core or other software:
 
 * Blocks will be stored on disk out of order (in the order they are
 received, really), which makes it incompatible with some tools or
@@ -62,10 +62,10 @@ Protocol:
 - bnProofOfWorkLimit = >> 20    (instead of >> 32)
 - See 9a980612005adffdeb2a17ca7a09fe126dd45e0e for Genesis Parameters
 - zeitgeist2 protection: b1b31d15cc720a1c186431b21ecc9d1a9062bcb6 Slightly different way to calculate difficulty changes.
-- Monacoin Core v0.10.2.2 is protocol version 70003 (instead of 70002)
+- WeyCash Core v0.10.2.2 is protocol version 70003 (instead of 70002)
 
 Relay:
-- Monacoin Core rounds transaction size up to the nearest 1000 bytes before calculating fees.  This size rounding behavior is to mimic fee calculation of Monacoin v0.6 and v0.8.
+- WeyCash Core rounds transaction size up to the nearest 1000 bytes before calculating fees.  This size rounding behavior is to mimic fee calculation of Monacoin v0.6 and v0.8.
 - Bitcoin's IsDust() is disabled in favor of Monacoin's fee-based dust penalty.
 - Fee-based Dust Penalty: For each transaction output smaller than DUST_THRESHOLD (currently 0.001 MONA) the default relay/mining policy will expect an additional 1000 bytes of fee.  Otherwise the transaction will be rejected from relay/mining.  Such transactions are also disqualified from the free/high-priority transaction rule.
 - Miners and relays can adjust the expected fee per-KB with the -minrelaytxfee parameter.

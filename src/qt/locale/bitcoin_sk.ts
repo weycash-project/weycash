@@ -3129,8 +3129,8 @@
         <translation>Nepodarilo sa spustiť HTTP server. Pre viac detailov zobrazte debug log.</translation>
     </message>
     <message>
-        <source>Monacoin Core</source>
-        <translation>Monacoin Core</translation>
+        <source>WeyCash Core</source>
+        <translation>WeyCash Core</translation>
     </message>
     <message>
         <source>The %s developers</source>

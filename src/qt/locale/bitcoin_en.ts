@@ -4097,8 +4097,8 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of &quot;100 satos
     </message>
     <message>
         <location line="-184"/>
-        <source>Monacoin Core</source>
-        <translation type="unfinished">Monacoin Core</translation>
+        <source>WeyCash Core</source>
+        <translation type="unfinished">WeyCash Core</translation>
     </message>
     <message>
         <location line="+1"/>

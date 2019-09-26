@@ -3176,8 +3176,8 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>無法啟動 HTTP 伺服器。詳情請看除錯紀錄。</translation>
     </message>
     <message>
-        <source>Monacoin Core</source>
-        <translation>Monacoin Core</translation>
+        <source>WeyCash Core</source>
+        <translation>WeyCash Core</translation>
     </message>
     <message>
         <source>The %s developers</source>

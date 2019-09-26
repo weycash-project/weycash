@@ -38,17 +38,17 @@ from the root of the repository.
 
 **Note**: You only need Berkeley DB if the wallet is enabled (see the section *Disable-Wallet mode* below).
 
-Build Monacoin Core
+Build WeyCash Core
 ------------------------
 
-1. Clone the Monacoin Core source code and cd into `monacoin`
+1. Clone the WeyCash Core source code and cd into `monacoin`
 
         git clone https://github.com/monacoinproject/monacoin
         cd monacoin
 
-2.  Build Monacoin Core:
+2.  Build WeyCash Core:
 
-    Configure and build the headless Monacoin Core binaries as well as the GUI (if Qt is found).
+    Configure and build the headless WeyCash Core binaries as well as the GUI (if Qt is found).
 
     You can disable the GUI build by passing `--without-gui` to configure.
 
@@ -77,7 +77,7 @@ Build Monacoin Core
 Running
 -------
 
-Monacoin Core is now available at `./src/monacoind`
+WeyCash Core is now available at `./src/monacoind`
 
 Before running, it's recommended that you create an RPC configuration file.
 

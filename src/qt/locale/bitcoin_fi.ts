@@ -3006,7 +3006,7 @@
         <translation>HTTP-palvelinta ei voitu käynnistää. Katso debug-lokista lisätietoja.</translation>
     </message>
     <message>
-        <source>Monacoin Core</source>
+        <source>WeyCash Core</source>
         <translation>Monacoin-ydin</translation>
     </message>
     <message>

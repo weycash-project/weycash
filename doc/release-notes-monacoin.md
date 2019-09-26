@@ -1,4 +1,4 @@
-Monacoin Core version 0.17.1 is now available from:
+WeyCash Core version 0.17.1 is now available from:
 
   <https://github.com/monacoinproject/monacoin/releases>
 
@@ -43,10 +43,10 @@ processing the entire blockchain.
 Compatibility
 ==============
 
-Monacoin Core is extensively tested on multiple operating systems using
+WeyCash Core is extensively tested on multiple operating systems using
 the Linux kernel, macOS 10.10+, and Windows 7 and newer (Windows XP is not supported).
 
-Monacoin Core should also work on most other Unix-like systems but is not
+WeyCash Core should also work on most other Unix-like systems but is not
 frequently tested on them.
 
 From 0.17.0 onwards macOS <10.10 is no longer supported. 0.17.0 is built using Qt 5.9.x, which doesn't
@@ -279,7 +279,7 @@ hardware implementations will typically implement multiple roles simultaneously.
 Upgrading non-HD wallets to HD wallets
 --------------------------------------
 
-Since Monacoin Core 0.13.0, creating new BIP 32 Hierarchical Deterministic wallets has been supported by Monacoin Core but old non-HD wallets could not be upgraded to HD. Now non-HD wallets can be upgraded to HD using the `-upgradewallet` command line option. This upgrade will result in the all keys in the keypool being marked as used and a new keypool generated. **A new backup must be made when this upgrade is performed.**
+Since WeyCash Core 0.13.0, creating new BIP 32 Hierarchical Deterministic wallets has been supported by WeyCash Core but old non-HD wallets could not be upgraded to HD. Now non-HD wallets can be upgraded to HD using the `-upgradewallet` command line option. This upgrade will result in the all keys in the keypool being marked as used and a new keypool generated. **A new backup must be made when this upgrade is performed.**
 
 Additionally, `-upgradewallet` can be used to upgraded from a non-split HD chain (all keys generated with `m/0'/0'/i'`) to a split HD chain (receiving keys generated with `'m/0'/0'/i'` and change keys generated with `m'/0'/1'/i'`). When this upgrade occurs, all keys already in the keypool will remain in the keypool to be used until all keys from before the upgrade are exhausted. This is to avoid issues with backups and downgrades when some keys may come from the change key keypool. Users can begin using the new split HD chain keypools by using the `newkeypool` RPC to mark all keys in the keypool as used and begin using a new keypool generated from the split HD chain.
 

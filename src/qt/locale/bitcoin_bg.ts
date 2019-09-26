@@ -2298,7 +2298,7 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Monacoin Core</source>
+        <source>WeyCash Core</source>
         <translation>Monacoin ядро</translation>
     </message>
     <message>

@@ -707,7 +707,7 @@ fs::path GetDefaultDataDir()
     // Windows < Vista: C:\Documents and Settings\Username\Application Data\Bitcoin
     // Windows >= Vista: C:\Users\Username\AppData\Roaming\Bitcoin
     // Mac: ~/Library/Application Support/Bitcoin
-    // Unix: ~/.bitcoin
+    // Unix: ~/.weycash
 #ifdef WIN32
     // Windows
     return GetSpecialFolderPath(CSIDL_APPDATA) / "Monacoin";
@@ -723,7 +723,7 @@ fs::path GetDefaultDataDir()
     return pathRet / "Library/Application Support/Monacoin";
 #else
     // Unix
-    return pathRet / ".monacoin";
+    return pathRet / ".weycash";
 #endif
 #endif
 }
@@ -1246,6 +1246,10 @@ std::string CopyrightHolders(const std::string& strPrefix)
         strYear = strPrefix;
         strYear.replace(strYear.find("2013"), sizeof("2013")-1, "2014");
         strCopyrightHolders += "\n" + strYear + "The Vertcoin Developers";
+
+        strYear = strPrefix;
+        strYear.replace(strYear.find("2013"), sizeof("2013")-1, "2019");
+        strCopyrightHolders += "\n" + strYear + "The WeyCash Developers";
     }
     return strCopyrightHolders;
 }

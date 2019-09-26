@@ -27,7 +27,7 @@ Download the source code:
 git clone https://github.com/monacoinproject/monacoin
 ```
 
-## Building Monacoin Core
+## Building WeyCash Core
 
 **Important**: Use `gmake` (the non-GNU `make` will exit with an error).
 

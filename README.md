@@ -1,4 +1,4 @@
-Monacoin Core integration/staging tree
+WeyCash Core integration/staging tree
 =====================================
 
 [![Build Status](https://travis-ci.org/monacoinproject/monacoin.svg?branch=master)](https://travis-ci.org/monacoinproject/monacoin)
@@ -11,16 +11,16 @@ What is Monacoin?
 Monacoin is an experimental digital currency that enables instant payments to
 anyone, anywhere in the world. Monacoin uses peer-to-peer technology to operate
 with no central authority: managing transactions and issuing money are carried
-out collectively by the network. Monacoin Core is the name of open source
+out collectively by the network. WeyCash Core is the name of open source
 software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the Monacoin Core software, see [https://monacoin.org](https://monacoin.org).
+the WeyCash Core software, see [https://monacoin.org](https://monacoin.org).
 
 License
 -------
 
-Monacoin Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
+WeyCash Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
 information or see https://opensource.org/licenses/MIT.
 
 Development Process
@@ -28,7 +28,7 @@ Development Process
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
 completely stable. [Tags](https://github.com/monacoinproject/monacoin/tags) are created
-regularly to indicate new official, stable release versions of Monacoin Core.
+regularly to indicate new official, stable release versions of WeyCash Core.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).
 

@@ -38,7 +38,7 @@
   <true/>
 
   <key>CFBundleIdentifier</key>
-  <string>org.monacoin.Monacoin-Qt</string>
+  <string>org.weycash.Monacoin-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -46,7 +46,7 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>org.monacoin.MonacoinPayment</string>
+      <string>org.weycash.MonacoinPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
         <string>monacoin</string>
@@ -58,7 +58,7 @@
   <array>
     <dict>
       <key>UTTypeIdentifier</key>
-      <string>org.monacoin.paymentrequest</string>
+      <string>org.weycash.paymentrequest</string>
       <key>UTTypeDescription</key>
       <string>Monacoin payment request</string>
       <key>UTTypeConformsTo</key>
@@ -84,7 +84,7 @@
       <string>Editor</string>
       <key>LSItemContentTypes</key>
       <array>
-        <string>org.monacoin.paymentrequest</string>
+        <string>org.weycash.paymentrequest</string>
       </array>
       <key>LSHandlerRank</key>
       <string>Owner</string>

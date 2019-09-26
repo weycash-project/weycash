@@ -3022,7 +3022,7 @@
         <translation>HTTP sunucusu başlatılamadı. Ayrıntılar için debug.log dosyasına bakınız.</translation>
     </message>
     <message>
-        <source>Monacoin Core</source>
+        <source>WeyCash Core</source>
         <translation>Monacoin Çekirdeği</translation>
     </message>
     <message>

@@ -1,4 +1,4 @@
-Monacoin Core version 0.16.3 is now available from:
+WeyCash Core version 0.16.3 is now available from:
 
   <https://github.com/monacoinproject/monacoin/releases>
 

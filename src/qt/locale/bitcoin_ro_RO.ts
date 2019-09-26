@@ -3100,7 +3100,7 @@
         <translation>Imposibil de pornit serverul HTTP. Pentru detalii vezi logul de depanare.</translation>
     </message>
     <message>
-        <source>Monacoin Core</source>
+        <source>WeyCash Core</source>
         <translation>Nucleul Monacoin</translation>
     </message>
     <message>

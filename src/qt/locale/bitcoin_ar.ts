@@ -2920,7 +2920,7 @@
         <translation>غير قادر على بدء خادم ال HTTP. راجع سجل تصحيح الأخطاء للحصول على التفاصيل.</translation>
     </message>
     <message>
-        <source>Monacoin Core</source>
+        <source>WeyCash Core</source>
         <translation>جوهر Monacoin</translation>
     </message>
     <message>
