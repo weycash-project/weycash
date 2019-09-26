@@ -15,8 +15,8 @@ How to Upgrade
 
 If you are running an older version, shut it down. Wait until it has completely
 shut down (which might take a few minutes for older versions), then run the
-installer (on Windows) or just copy over `/Applications/Monacoin-Qt` (on Mac)
-or `weycashd`/`monacoin-qt` (on Linux).
+installer (on Windows) or just copy over `/Applications/Weycash-Qt` (on Mac)
+or `weycashd`/`weycash-qt` (on Linux).
 
 The first time you run version 0.15.0 or newer, your chainstate database will be converted to a
 new format, which will take anywhere from a few minutes to half an hour,
@@ -82,7 +82,7 @@ to new wallets; wallets made with previous versions will not be upgraded to be H
 
 WeyCash Core now has more flexibility in where the wallets directory can be
 located. Previously wallet database files were stored at the top level of the
-Monacoin data directory. The behavior is now:
+Weycash data directory. The behavior is now:
 
 - For new installations (where the data directory doesn't already exist),
   wallets will now be stored in a new `wallets/` subdirectory inside the data
@@ -148,7 +148,7 @@ This checkpoint disappears when moancoind shutdown.
 ### Checkpoint distribution
 
 Monacoinproject plans checkpoint distribution.
-To deny checkpoint, use the argument `-cmdcheckpoint=false` with weycashd or monacoin-qt or add `cmdcheckpoint=false` to your weycash.conf. 
+To deny checkpoint, use the argument `-cmdcheckpoint=false` with weycashd or weycash-qt or add `cmdcheckpoint=false` to your weycash.conf. 
 It is a function provided for the purpose of invalidating 51% attack on monacoin, but it is not mandatory.
 
 ### Safe mode disabled by default

@@ -29,16 +29,16 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>Monacoin-Qt</string>
+  <string>Weycash-Qt</string>
   
   <key>CFBundleName</key>
-  <string>Monacoin-Qt</string>
+  <string>Weycash-Qt</string>
 
   <key>LSHasLocalizedDisplayName</key>
   <true/>
 
   <key>CFBundleIdentifier</key>
-  <string>org.weycash.Monacoin-Qt</string>
+  <string>org.weycash.Weycash-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -46,7 +46,7 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>org.weycash.MonacoinPayment</string>
+      <string>org.weycash.WeycashPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
         <string>monacoin</string>
@@ -60,7 +60,7 @@
       <key>UTTypeIdentifier</key>
       <string>org.weycash.paymentrequest</string>
       <key>UTTypeDescription</key>
-      <string>Monacoin payment request</string>
+      <string>Weycash payment request</string>
       <key>UTTypeConformsTo</key>
       <array>
         <string>public.data</string>

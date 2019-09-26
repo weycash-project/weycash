@@ -18,8 +18,8 @@ How to Upgrade
 
 If you are running an older version, shut it down. Wait until it has completely
 shut down (which might take a few minutes for older versions), then run the
-installer (on Windows) or just copy over /Applications/Monacoin-Qt (on Mac) or
-weycashd/monacoin-qt (on Linux).
+installer (on Windows) or just copy over /Applications/Weycash-Qt (on Mac) or
+weycashd/weycash-qt (on Linux).
 
 Downgrade warning
 ------------------
@@ -105,7 +105,7 @@ next major release.
 
 This release is based upon Bitcoin Core v0.10.4.  Their upstream changelog applies to us and
 is included in as separate release-notes, see: [Release Notes](release-notes.md).  
-This section describes the Monacoin-specific differences.
+This section describes the Weycash-specific differences.
 
 - Added BIP65 CHECKLOCKTIMEVERIFY softfork.
 - Increased OP_RETURN relay size to 80 bytes.

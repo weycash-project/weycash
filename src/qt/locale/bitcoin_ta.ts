@@ -90,8 +90,8 @@
         <translation>&amp;செய்தியை சரிசெய்...</translation>
     </message>
     <message>
-        <source>Monacoin</source>
-        <translation>Monacoin</translation>
+        <source>Weycash</source>
+        <translation>Weycash</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -225,8 +225,8 @@
         <translation>நல்வரவு</translation>
     </message>
     <message>
-        <source>Monacoin</source>
-        <translation>Monacoin</translation>
+        <source>Weycash</source>
+        <translation>Weycash</translation>
     </message>
     <message>
         <source>Error</source>
@@ -713,7 +713,7 @@
     <name>bitcoin-core</name>
     <message>
         <source>WeyCash Core</source>
-        <translation>Monacoin மையம்</translation>
+        <translation>Weycash மையம்</translation>
     </message>
     <message>
         <source>Information</source>

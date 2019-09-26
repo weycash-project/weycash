@@ -4,10 +4,10 @@
 src/monacoin
 src/weycashd
 src/weycash-cli
-src/monacoin-tx
+src/weycash-tx
 src/test/test_monacoin
 src/test/test_monacoin_fuzzy
-src/qt/test/test_monacoin-qt
+src/qt/test/test_weycash-qt
 
 # autoreconf
 Makefile.in
@@ -80,13 +80,13 @@ src/qt/bitcoin-qt.includes
 # Compilation and Qt preprocessor part
 *.qm
 Makefile
-monacoin-qt
-monacoin-Qt.app
+weycash-qt
+weycash-Qt.app
 background.tiff*
 
 # Unit-tests
 Makefile.test
-monacoin-qt_test
+weycash-qt_test
 
 # Resources cpp
 qrc_*.cpp

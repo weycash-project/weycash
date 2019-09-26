@@ -8,14 +8,14 @@ BINDIR=${BINDIR:-$BUILDDIR/src}
 MANDIR=${MANDIR:-$TOPDIR/doc/man}
 
 WEYCASHD=${BITCOIND:-$BINDIR/weycashd}
-MONACOINCLI=${BITCOINCLI:-$BINDIR/weycash-cli}
-MONACOINTX=${BITCOINTX:-$BINDIR/monacoin-tx}
-MONACOINQT=${BITCOINQT:-$BINDIR/qt/monacoin-qt}
+WEYCASHCLI=${BITCOINCLI:-$BINDIR/weycash-cli}
+WEYCASHTX=${BITCOINTX:-$BINDIR/weycash-tx}
+WEYCASHQT=${BITCOINQT:-$BINDIR/qt/weycash-qt}
 
 [ ! -x $WEYCASHD ] && echo "$WEYCASHD not found or not executable." && exit 1
 
 # The autodetected version git tag can screw up manpage output a little bit
-MONAVER=($($MONACOINCLI --version | head -n1 | awk -F'[ -]' '{ print $6, $7 }'))
+MONAVER=($($WEYCASHCLI --version | head -n1 | awk -F'[ -]' '{ print $6, $7 }'))
 
 # Create a footer file with copyright content.
 # This gets autodetected fine for bitcoind if --version-string is not set,
@@ -23,7 +23,7 @@ MONAVER=($($MONACOINCLI --version | head -n1 | awk -F'[ -]' '{ print $6, $7 }'))
 echo "[COPYRIGHT]" > footer.h2m
 $WEYCASHD --version | sed -n '1!p' >> footer.h2m
 
-for cmd in $WEYCASHD $MONACOINCLI $MONACOINTX $MONACOINQT; do
+for cmd in $WEYCASHD $WEYCASHCLI $WEYCASHTX $WEYCASHQT; do
   cmdname="${cmd##*/}"
   help2man -N --version-string=${MONAVER[0]} --include=footer.h2m -o ${MANDIR}/${cmdname}.1 ${cmd}
   sed -i "s/\\\-${MONAVER[1]}//g" ${MANDIR}/${cmdname}.1

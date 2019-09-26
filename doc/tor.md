@@ -1,4 +1,4 @@
-# TOR SUPPORT IN MONACOIN
+# TOR SUPPORT IN WEYCASH
 
 It is possible to run WeyCash Core as a Tor hidden service, and connect to such services.
 

@@ -6,7 +6,7 @@
 """
     ZMQ example using python3's asyncio
 
-    Monacoin should be started with the command line arguments:
+    Weycash should be started with the command line arguments:
         weycashd -testnet -daemon \
                 -zmqpubrawtx=tcp://127.0.0.1:29402 \
                 -zmqpubrawblock=tcp://127.0.0.1:29402 \

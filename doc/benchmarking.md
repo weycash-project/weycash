@@ -6,9 +6,9 @@ for cryptographic algorithms (e.g. SHA1, SHA256, SHA512, RIPEMD160), as well as 
 
 Running
 ---------------------
-After compiling Monacoin-core, the benchmarks can be run with:
+After compiling Weycash-core, the benchmarks can be run with:
 
-    src/bench/bench_Monacoin
+    src/bench/bench_Weycash
 
 The output will look similar to:
 ```
@@ -43,7 +43,7 @@ Help
 ---------------------
 `-?` will print a list of options and exit:
 
-    src/bench/bench_Monacoin -?
+    src/bench/bench_Weycash -?
 
 Notes
 ---------------------

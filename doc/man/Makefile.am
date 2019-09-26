@@ -5,9 +5,9 @@ if BUILD_BITCOIND
 endif
 
 if ENABLE_QT
-  dist_man1_MANS+=monacoin-qt.1
+  dist_man1_MANS+=weycash-qt.1
 endif
 
 if BUILD_BITCOIN_UTILS
-  dist_man1_MANS+=weycash-cli.1 monacoin-tx.1
+  dist_man1_MANS+=weycash-cli.1 weycash-tx.1
 endif

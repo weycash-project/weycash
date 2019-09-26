@@ -15,8 +15,8 @@ How to Upgrade
 
 If you are running an older version, shut it down. Wait until it has completely
 shut down (which might take a few minutes for older versions), then run the
-installer (on Windows) or just copy over `/Applications/Monacoin-Qt` (on Mac)
-or `weycashd`/`monacoin-qt` (on Linux).
+installer (on Windows) or just copy over `/Applications/Weycash-Qt` (on Mac)
+or `weycashd`/`weycash-qt` (on Linux).
 
 If your node has a txindex, the txindex db will be migrated the first time you run 0.17.0 or newer, which may take up to a few hours. Your node will not be functional until this migration completes.
 
@@ -204,21 +204,21 @@ Here are the changes to RPC methods:
 | `listtransactions`     | The `account` named parameter has been renamed to `dummy`. If provided, the `dummy` parameter must be set to the string `*`, unless running with the `-deprecatedrpc=accounts` argument (in which case functionality is unchanged). |
 | `getbalance`           | `account`, `minconf` and `include_watchonly` parameters are deprecated, and can only be used if running with '-deprecatedrpc=accounts' |
 
-BIP 174 Partially Signed Monacoin Transactions support
+BIP 174 Partially Signed Weycash Transactions support
 -----------------------------------------------------
 
-[BIP 174 PSBT](https://github.com/bitcoin/bips/blob/master/bip-0174.mediawiki) is an interchange format for Monacoin transactions that are not fully signed
+[BIP 174 PSBT](https://github.com/bitcoin/bips/blob/master/bip-0174.mediawiki) is an interchange format for Weycash transactions that are not fully signed
 yet, together with relevant metadata to help entities work towards signing it.
 It is intended to simplify workflows where multiple parties need to cooperate to
 produce a transaction. Examples include hardware wallets, multisig setups, and
 [CoinJoin](https://bitcointalk.org/?topic=279249) transactions.
 
-For backend RPC convenience, the Monacoin devs have supported to keep the acronym `PSBT`
+For backend RPC convenience, the Weycash devs have supported to keep the acronym `PSBT`
 instead of `PSMN` to make crosschain application support easier.
 
 ### Overall workflow
 
-Overall, the construction of a fully signed Monacoin transaction goes through the
+Overall, the construction of a fully signed Weycash transaction goes through the
 following steps:
 
 - A **Creator** proposes a particular transaction to be created. He constructs
@@ -233,7 +233,7 @@ following steps:
   partial signature for the inputs for which they have relevant key(s).
 - A **Finalizer** is run for each input to convert the partial signatures and
   possibly script information into a final `scriptSig` and/or `scriptWitness`.
-- An **Extractor** produces a valid Monacoin transaction (in network format)
+- An **Extractor** produces a valid Weycash transaction (in network format)
   from a PSBT for which all inputs are finalized.
 
 Generally, each of the above (excluding Creator and Extractor) will simply

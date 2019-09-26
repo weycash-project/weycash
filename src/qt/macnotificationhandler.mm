@@ -13,7 +13,7 @@
 - (NSString *)__bundleIdentifier
 {
     if (self == [NSBundle mainBundle]) {
-        return @"org.weycash.Monacoin-Qt";
+        return @"org.weycash.Weycash-Qt";
     } else {
         return [self __bundleIdentifier];
     }

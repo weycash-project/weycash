@@ -66,11 +66,11 @@
         <translation>Přijímací adresy</translation>
     </message>
     <message>
-        <source>These are your Monacoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Weycash addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Tohle jsou tvé monacoinové adresy pro posílání plateb. Před odesláním mincí si vždy zkontroluj částku a cílovou adresu.</translation>
     </message>
     <message>
-        <source>These are your Monacoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your Weycash addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Tohle jsou tvé monacoinové adresy pro příjem plateb. Nezapomeň si pro každou transakci vždy vygenerovat novou adresu.</translation>
     </message>
     <message>
@@ -176,8 +176,8 @@
         <translation>Potvrď zašifrování peněženky</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MONACOINS&lt;/b&gt;!</source>
-        <translation>Upozornění: Pokud si zašifruješ peněženku a ztratíš či zapomeneš heslo, &lt;b&gt;PŘIJDEŠ O VŠECHNY MONACOINY&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR WEYCASHS&lt;/b&gt;!</source>
+        <translation>Upozornění: Pokud si zašifruješ peněženku a ztratíš či zapomeneš heslo, &lt;b&gt;PŘIJDEŠ O VŠECHNY WEYCASHY&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -354,7 +354,7 @@
         <translation>Vytvářím nový index bloků na disku...</translation>
     </message>
     <message>
-        <source>Send coins to a Monacoin address</source>
+        <source>Send coins to a Weycash address</source>
         <translation>Pošli mince na monacoinovou adresu</translation>
     </message>
     <message>
@@ -378,8 +378,8 @@
         <translation>&amp;Ověř zprávu...</translation>
     </message>
     <message>
-        <source>Monacoin</source>
-        <translation>Monacoin</translation>
+        <source>Weycash</source>
+        <translation>Weycash</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -406,11 +406,11 @@
         <translation>Zašifruj soukromé klíče ve své peněžence</translation>
     </message>
     <message>
-        <source>Sign messages with your Monacoin addresses to prove you own them</source>
+        <source>Sign messages with your Weycash addresses to prove you own them</source>
         <translation>Podepiš zprávy svými monacoinovými adresami, čímž prokážeš, že jsi jejich vlastníkem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Monacoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified Weycash addresses</source>
         <translation>Ověř zprávy, aby ses ujistil, že byly podepsány danými monacoinovými adresami</translation>
     </message>
     <message>
@@ -450,7 +450,7 @@
         <translation>Ar&amp;gumenty příkazové řádky</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Monacoin network</source>
+        <source>%n active connection(s) to Weycash network</source>
         <translation><numerusform>%n aktivní spojení do monacoinové sítě</numerusform><numerusform>%n aktivní spojení do monacoinové sítě</numerusform><numerusform>%n aktivních spojení do monacoinové sítě</numerusform><numerusform>%n aktivních spojení do monacoinové sítě</numerusform></translation>
     </message>
     <message>
@@ -494,8 +494,8 @@
         <translation>Aktuální</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Monacoin command-line options</source>
-        <translation>Seznam argumentů Monacoinu pro příkazovou řádku získáš v nápovědě %1</translation>
+        <source>Show the %1 help message to get a list with possible Weycash command-line options</source>
+        <translation>Seznam argumentů Weycashu pro příkazovou řádku získáš v nápovědě %1</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -564,8 +564,8 @@
         <translation>Peněženka je &lt;b&gt;zašifrovaná&lt;/b&gt; a momentálně &lt;b&gt;zamčená&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Monacoin can no longer continue safely and will quit.</source>
-        <translation>Stala se fatální chyba. Monacoin nemůže bezpečně pokračovat v činnosti, a proto skončí.</translation>
+        <source>A fatal error occurred. Weycash can no longer continue safely and will quit.</source>
+        <translation>Stala se fatální chyba. Weycash nemůže bezpečně pokračovat v činnosti, a proto skončí.</translation>
     </message>
 </context>
 <context>
@@ -754,7 +754,7 @@
         <translation>Uprav odesílací adresu</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Monacoin address.</source>
+        <source>The entered address "%1" is not a valid Weycash address.</source>
         <translation>Zadaná adresa „%1“ není platná monacoinová adresa.</translation>
     </message>
     <message>
@@ -843,8 +843,8 @@
         <translation>Použij tento adresář pro data:</translation>
     </message>
     <message>
-        <source>Monacoin</source>
-        <translation>Monacoin</translation>
+        <source>Weycash</source>
+        <translation>Weycash</translation>
     </message>
     <message>
         <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
@@ -855,7 +855,7 @@
         <translation>Bude proto potřebovat do tohoto adresáře uložit přibližně %1 GB dat.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Monacoin block chain.</source>
+        <source>%1 will download and store a copy of the Weycash block chain.</source>
         <translation>%1 bude stahovat kopii bločenky.</translation>
     </message>
     <message>
@@ -1060,7 +1060,7 @@
         <translation>&amp;Utrácet i ještě nepotvrzené drobné</translation>
     </message>
     <message>
-        <source>Automatically open the Monacoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the Weycash client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Automaticky otevře potřebný port na routeru. Tohle funguje jen za předpokladu, že tvůj router podporuje UPnP a že je UPnP povolené.</translation>
     </message>
     <message>
@@ -1076,7 +1076,7 @@
         <translation>Přijí&amp;mat příchozí spojení</translation>
     </message>
     <message>
-        <source>Connect to the Monacoin network through a SOCKS5 proxy.</source>
+        <source>Connect to the Weycash network through a SOCKS5 proxy.</source>
         <translation>Připojí se do monacoinové sítě přes SOCKS5 proxy.</translation>
     </message>
     <message>
@@ -1112,7 +1112,7 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Monacoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <source>Connect to the Weycash network through a separate SOCKS5 proxy for Tor hidden services.</source>
         <translation>Připojí se do monacoinové sítě přes SOCKS5 proxy vyhrazenou pro skryté služby v Tor síti.</translation>
     </message>
     <message>
@@ -1219,7 +1219,7 @@
         <translation>Formulář</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Monacoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Weycash network after a connection is established, but this process has not completed yet.</source>
         <translation>Zobrazené informace nemusí být aktuální. Tvá peněženka se automaticky sesynchronizuje s monacoinovou sítí, jakmile se s ní spojí. Zatím ale ještě není synchronizace dokončena.</translation>
     </message>
     <message>
@@ -1314,7 +1314,7 @@
         <translation>Neplatná platební adresa %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Monacoin address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid Weycash address or malformed URI parameters.</source>
         <translation>Nepodařilo se analyzovat URI! Důvodem může být neplatná monacoinová adresa nebo poškozené parametry URI.</translation>
     </message>
     <message>
@@ -1416,7 +1416,7 @@
         <translation>Částka</translation>
     </message>
     <message>
-        <source>Enter a Monacoin address (e.g. %1)</source>
+        <source>Enter a Weycash address (e.g. %1)</source>
         <translation>Zadej monacoinovou adresu (např. %1)</translation>
     </message>
     <message>
@@ -1832,7 +1832,7 @@
         <translation>&amp;Zpráva:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Monacoin network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Weycash network.</source>
         <translation>Volitelná zpráva, která se připojí k platebnímu požadavku a která se zobrazí, když se požadavek otevře. Poznámka: tahle zpráva se neposílá s platbou po monacoinové síti.</translation>
     </message>
     <message>
@@ -2225,7 +2225,7 @@
         <translation><numerusform>Potvrzování by podle odhadu mělo začít během %n bloku.</numerusform><numerusform>Potvrzování by podle odhadu mělo začít během %n bloků.</numerusform><numerusform>Potvrzování by podle odhadu mělo začít během %n bloků.</numerusform><numerusform>Potvrzování by podle odhadu mělo začít během %n bloků.</numerusform></translation>
     </message>
     <message>
-        <source>Warning: Invalid Monacoin address</source>
+        <source>Warning: Invalid Weycash address</source>
         <translation>Upozornění: Neplatná monacoinová adresa</translation>
     </message>
     <message>
@@ -2268,8 +2268,8 @@
         <translation>Tohle je normální platba.</translation>
     </message>
     <message>
-        <source>The Monacoin address to send the payment to</source>
-        <translation>Monacoinová adresa příjemce</translation>
+        <source>The Weycash address to send the payment to</source>
+        <translation>Weycashová adresa příjemce</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2312,7 +2312,7 @@
         <translation>Zadej označení této adresy; obojí se ti pak uloží do adresáře</translation>
     </message>
     <message>
-        <source>A message that was attached to the monacoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Monacoin network.</source>
+        <source>A message that was attached to the monacoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Weycash network.</source>
         <translation>Zpráva, která byla připojena k monacoin: URI a která se ti pro přehled uloží k transakci. Poznámka: Tahle zpráva se neposílá s platbou po monacoinové síti.</translation>
     </message>
     <message>
@@ -2361,8 +2361,8 @@
         <translation>Podepsáním zprávy/smlouvy svými adresami můžeš prokázat, že jsi na ně schopen přijmout monacoiny. Buď opatrný a nepodepisuj nic vágního nebo náhodného; například při phishingových útocích můžeš být lákán, abys něco takového podepsal. Podepisuj pouze naprosto úplná a detailní prohlášení, se kterými souhlasíš.</translation>
     </message>
     <message>
-        <source>The Monacoin address to sign the message with</source>
-        <translation>Monacoinová adresa, kterou se zpráva podepíše</translation>
+        <source>The Weycash address to sign the message with</source>
+        <translation>Weycashová adresa, kterou se zpráva podepíše</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2393,7 +2393,7 @@
         <translation>Zkopíruj tento podpis do schránky</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Monacoin address</source>
+        <source>Sign the message to prove you own this Weycash address</source>
         <translation>Podepiš zprávu, čímž prokážeš, že jsi vlastníkem této monacoinové adresy</translation>
     </message>
     <message>
@@ -2417,11 +2417,11 @@
         <translation>K ověření podpisu zprávy zadej adresu příjemce, zprávu (ověř si, že správně kopíruješ zalomení řádků, mezery, tabulátory apod.) a podpis. Dávej pozor na to, abys nezkopíroval do podpisu víc, než co je v samotné podepsané zprávě, abys nebyl napálen man-in-the-middle útokem. Poznamenejme však, že takto lze pouze prokázat, že podepisující je schopný na dané adrese přijmout platbu, ale není možnéprokázat, že odeslal jakoukoli transakci!</translation>
     </message>
     <message>
-        <source>The Monacoin address the message was signed with</source>
-        <translation>Monacoinová adresa, kterou je zpráva podepsána</translation>
+        <source>The Weycash address the message was signed with</source>
+        <translation>Weycashová adresa, kterou je zpráva podepsána</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Monacoin address</source>
+        <source>Verify the message to ensure it was signed with the specified Weycash address</source>
         <translation>Ověř zprávu, aby ses ujistil, že byla podepsána danou monacoinovou adresou</translation>
     </message>
     <message>

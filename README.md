@@ -5,11 +5,11 @@ WeyCash Core integration/staging tree
 
 https://monacoin.org
 
-What is Monacoin?
+What is Weycash?
 ----------------
 
-Monacoin is an experimental digital currency that enables instant payments to
-anyone, anywhere in the world. Monacoin uses peer-to-peer technology to operate
+Weycash is an experimental digital currency that enables instant payments to
+anyone, anywhere in the world. Weycash uses peer-to-peer technology to operate
 with no central authority: managing transactions and issuing money are carried
 out collectively by the network. WeyCash Core is the name of open source
 software which enables the use of this currency.
@@ -70,7 +70,7 @@ Translations
 ------------
 
 We only accept translation fixes that are submitted through [Bitcoin Core's Transifex page](https://www.transifex.com/projects/p/bitcoin/).
-Translations are converted to Monacoin periodically.
+Translations are converted to Weycash periodically.
 
 Translations are periodically pulled from Transifex and merged into the git repository. See the
 [translation process](doc/translation_process.md) for details on how this works.

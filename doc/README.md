@@ -3,7 +3,7 @@ WeyCash Core
 
 Setup
 ---------------------
-WeyCash Core is the original Monacoin client and it builds the backbone of the network. It downloads and, by default, stores the entire history of Monacoin transactions (which is currently more than 7 GBs); depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
+WeyCash Core is the original Weycash client and it builds the backbone of the network. It downloads and, by default, stores the entire history of Weycash transactions (which is currently more than 7 GBs); depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
 
 To download WeyCash Core, visit [monacoin.org](https://monacoin.org).
 
@@ -15,12 +15,12 @@ The following are some helpful notes on how to run WeyCash Core on your native p
 
 Unpack the files into a directory and run:
 
-- `bin/monacoin-qt` (GUI) or
+- `bin/weycash-qt` (GUI) or
 - `bin/weycashd` (headless)
 
 ### Windows
 
-Unpack the files into a directory, and then run monacoin-qt.exe.
+Unpack the files into a directory, and then run weycash-qt.exe.
 
 ### macOS
 
@@ -28,7 +28,7 @@ Drag WeyCash Core to your applications folder, and then run WeyCash Core.
 
 ### Need Help?
 
-* See the documentation at the [Monacoin Wiki](https://monacoin.info/)
+* See the documentation at the [Weycash Wiki](https://monacoin.info/)
 for help and more information.
 * Ask for help on [#monacoin](http://webchat.freenode.net?channels=monacoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=monacoin).
 * Ask for help on the [MonacoinTalk](https://monacointalk.io/) forums.
@@ -47,7 +47,7 @@ The following are developer notes on how to build WeyCash Core on your native pl
 
 Development
 ---------------------
-The Monacoin repo's [root README](/README.md) contains relevant information on the development process and automated testing.
+The Weycash repo's [root README](/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Release Notes](release-notes.md)
@@ -63,7 +63,7 @@ The Monacoin repo's [root README](/README.md) contains relevant information on t
 
 ### Resources
 * Discuss on the [MonacoinTalk](https://monacointalk.io/) forums.
-* Discuss general Monacoin development on #monacoin-dev on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=monacoin-dev).
+* Discuss general Weycash development on #monacoin-dev on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=monacoin-dev).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

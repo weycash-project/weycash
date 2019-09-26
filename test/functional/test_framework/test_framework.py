@@ -138,7 +138,7 @@ class BitcoinTestFramework(metaclass=BitcoinTestMetaClass):
         config = configparser.ConfigParser()
         config.read_file(open(self.options.configfile))
         self.options.bitcoind = os.getenv("WEYCASHD", default=config["environment"]["BUILDDIR"] + '/src/weycashd' + config["environment"]["EXEEXT"])
-        self.options.bitcoincli = os.getenv("MONACOINCLI", default=config["environment"]["BUILDDIR"] + '/src/weycash-cli' + config["environment"]["EXEEXT"])
+        self.options.bitcoincli = os.getenv("WEYCASHCLI", default=config["environment"]["BUILDDIR"] + '/src/weycash-cli' + config["environment"]["EXEEXT"])
 
         os.environ['PATH'] = os.pathsep.join([
             os.path.join(config['environment']['BUILDDIR'], 'src'),

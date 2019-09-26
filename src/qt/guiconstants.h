@@ -46,9 +46,9 @@ static const int MAX_URI_LENGTH = 255;
 /* Number of frames in spinner animation */
 #define SPINNER_FRAMES 36
 
-#define QAPP_ORG_NAME "Monacoin"
+#define QAPP_ORG_NAME "Weycash"
 #define QAPP_ORG_DOMAIN "monacoin.org"
-#define QAPP_APP_NAME_DEFAULT "Monacoin-Qt"
-#define QAPP_APP_NAME_TESTNET "Monacoin-Qt-testnet"
+#define QAPP_APP_NAME_DEFAULT "Weycash-Qt"
+#define QAPP_APP_NAME_TESTNET "Weycash-Qt-testnet"
 
 #endif // BITCOIN_QT_GUICONSTANTS_H

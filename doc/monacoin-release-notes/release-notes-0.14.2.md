@@ -396,7 +396,7 @@ the same cache performance as prior releases.  Users on low-memory systems
 this parameter.
 
 Additional information relating to running on low-memory systems can be found
-here, originally written for Bitcoin but can also be used for Monacoin:
+here, originally written for Bitcoin but can also be used for Weycash:
 [reducing-bitcoind-memory-usage.md](https://gist.github.com/laanwj/efe29c7661ce9b6620a7).
 
 Credits

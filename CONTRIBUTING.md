@@ -72,7 +72,7 @@ the pull request affects. Valid areas as:
 
   - *Consensus* for changes to consensus critical code
   - *Docs* for changes to the documentation
-  - *Qt* for changes to monacoin-qt
+  - *Qt* for changes to weycash-qt
   - *Mining* for changes to the mining code
   - *Net* or *P2P* for changes to the peer-to-peer network code
   - *RPC/REST/ZMQ* for changes to the RPC, REST or ZMQ APIs
@@ -187,7 +187,7 @@ workload on reviewing.
 -------------------------
 
 The following applies to code changes to the WeyCash Core project (and related
-projects such as libsecp256k1), and is not to be confused with overall Monacoin
+projects such as libsecp256k1), and is not to be confused with overall Weycash
 Network Protocol consensus changes.
 
 Whether a pull request is merged into WeyCash Core rests with the project merge
@@ -208,7 +208,7 @@ In general, all pull requests must:
   - Where bugs are fixed, where possible, there should be unit tests
     demonstrating the bug and also proving the fix. This helps prevent regression.
 
-Patches that change Monacoin consensus rules are considerably more involved than
+Patches that change Weycash consensus rules are considerably more involved than
 normal because they affect the entire ecosystem and so must be preceded by
 extensive mailing list discussions and have a numbered BIP. While each case will
 be different, one should be prepared to expend more time and effort than for
@@ -249,7 +249,7 @@ higher in terms of discussion and peer review requirements, keeping in mind that
 mistakes could be very costly to the wider community. This includes refactoring
 of consensus critical code.
 
-Where a patch set proposes to change the Monacoin consensus, it must have been
+Where a patch set proposes to change the Weycash consensus, it must have been
 discussed extensively on the mailing list and IRC, be accompanied by a widely
 discussed BIP and have a generally widely perceived technical consensus of being
 a worthwhile change based on the judgement of the maintainers.
