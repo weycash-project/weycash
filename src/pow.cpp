@@ -90,11 +90,11 @@ unsigned int static DarkGravityWave(const CBlockIndex* pindexLast, const CBlockH
     CBigNum PastDifficultyAverage;
     CBigNum PastDifficultyAveragePrev;
 
-    if (BlockLastSolved == NULL || BlockLastSolved->nHeight < PastBlocksMin) {
+    if (BlockLastSolved == NULL || BlockLastSolved->nHeight < Params().SwitchLyra2REv3_DGWblock() + PastBlocksMin) {
         return UintToArith256(params.powLimit).GetCompact();
     }
 
-    for (unsigned int i = 1; BlockReading; i++) {
+    for (unsigned int i = 1; BlockReading && BlockReading->nHeight >= Params().SwitchLyra2REv3_DGWblock(); i++) {
         if (PastBlocksMax > 0 && i > PastBlocksMax) { break; }
         CountBlocks++;
 

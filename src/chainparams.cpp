@@ -182,7 +182,7 @@ public:
         strNetworkID = "test";
         consensus.nSubsidyHalvingInterval = 1051200;
         consensus.BIP16Height = 0; // always enforce P2SH BIP16 on regtest
-        consensus.BIP34Height = 0;
+        consensus.BIP34Height = 1;
         consensus.BIP34Hash = uint256S("6148da321fa29f640e95fd0bc9a68516b0fe976dbf30b92d8eeb4853d3b29e91");
         consensus.BIP65Height = -1;
         consensus.BIP66Height = -1;
