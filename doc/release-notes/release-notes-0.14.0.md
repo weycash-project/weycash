@@ -703,7 +703,7 @@ and git merge commit are mentioned.
 - #8743 `bae178f` Remove old manpages from contrib/debian in favour of doc/man (fanquake)
 - #9550 `4105cb6` Trim down the XP notice and say more about what we support (gmaxwell)
 - #9246 `9851498` Developer docs about existing subtrees (gmaxwell)
-- #9401 `c2ea1e6` Make rpcauth help message clearer, add example in example .conf (instagibbs)
+- #9392 `c2ea1e6` Make rpcauth help message clearer, add example in example .conf (instagibbs)
 - #9022,#9033 Document dropping OS X 10.7 support (fanquake, MarcoFalke)
 - #8771 `bc9e3ab` contributing: Mention not to open several pulls (luke-jr)
 - #8852 `7b784cc` Mention Gitian building script in doc (Laudaa) (laanwj)

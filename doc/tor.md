@@ -40,11 +40,11 @@ config file): *Needed for Tor version 0.2.7.0 and older versions of Tor only. Fo
 versions of Tor see [Section 3](#3-automatically-listen-on-tor).*
 
 	HiddenServiceDir /var/lib/tor/monacoin-service/
-	HiddenServicePort 9401 127.0.0.1:9401
-	HiddenServicePort 19403 127.0.0.1:19403
+	HiddenServicePort 9392 127.0.0.1:9392
+	HiddenServicePort 19392 127.0.0.1:19392
 
 The directory can be different of course, but (both) port numbers should be equal to
-your weycashd's P2P listen port (9401 by default).
+your weycashd's P2P listen port (9392 by default).
 
 	-externalip=X   You can tell monacoin about its publicly reachable address using
 	                this option, and this can be a .onion address. Given the above
@@ -79,7 +79,7 @@ as well, use `discover` instead:
 
 	./weycashd ... -discover
 
-and open port 9401 on your firewall (or use -upnp).
+and open port 9392 on your firewall (or use -upnp).
 
 If you only want to use Tor to reach .onion addresses, but not use it as a proxy
 for normal IPv4/IPv6 communication, use:

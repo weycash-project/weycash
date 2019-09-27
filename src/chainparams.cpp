@@ -109,9 +109,7 @@ public:
         consensus.defaultAssumeValid = uint256S("0x8ee1fd0a836d804422a100fb5c1ca7626c7a35b492c234146797f4a50f38eea8"); //1639061
 
         // Hardfork params
-        nSwitchKGWblock = 0;
-        nSwitchDIGIblock = 0;
-        nSwitchLyra2REv2_DGW = 1;
+        nSwitchLyra2REv3_DGW = 1;
 
         /**
          * The message start string is designed to be unlikely to occur in normal data.
@@ -122,7 +120,7 @@ public:
         pchMessageStart[1] = 0xf9;
         pchMessageStart[2] = 0xb6;
         pchMessageStart[3] = 0xe1;
-        nDefaultPort = 9401;
+        nDefaultPort = 9392;
         nPruneAfterHeight = 100000;
         vAlertPubKey[MAIN_KEY] = ParseHex("04fc55d919cdea21e8171fea24c3cf23864ff64a53404829ad50af86e1be1b8217115701b348d50c6aaba6983bc148d3c9e6fa8c11365889774fc1db6da6840c06");
         vAlertPubKey[SUB_KEY]  = ParseHex("042367fa06a8245f17c2137f6946e6084a2251b5a6a7123380cd0ff0d582d82ec32d939ed11c7774e949637dc47950817a80060a99fe7e516c0af43fa5a1a1b682");
@@ -221,11 +219,9 @@ public:
         pchMessageStart[3] = 0xf1;
 
         // Hardfork params
-        nSwitchKGWblock = 0;
-        nSwitchDIGIblock = 0;
-        nSwitchLyra2REv2_DGW = 1;
+        nSwitchLyra2REv3_DGW = 1;
 
-        nDefaultPort = 19403;
+        nDefaultPort = 19392;
         nPruneAfterHeight = 1000;
         vAlertPubKey[MAIN_KEY] = ParseHex("04887665070e79d20f722857e58ec8f402733f710135521a0b63441419bf5665ba4623bed13fca0cb2338682ab2a54ad13ce07fbc81c3c2f0912a4eb8521dd3cfb");
         vAlertPubKey[SUB_KEY]  = ParseHex("043368ffcc74f29c9e677f1b4a5d58345e672a19782514c8e1af115f17d1107697dd7017593c7cb39101011f2dafe5b0b14167072de776c27963a95a6aa94d1096");
@@ -313,9 +309,7 @@ public:
         consensus.defaultAssumeValid = uint256S("0x00");
 
         // Hardfork params
-        nSwitchKGWblock = 0;
-        nSwitchDIGIblock = 0;
-        nSwitchLyra2REv2_DGW = 1;
+        nSwitchLyra2REv3_DGW = 1;
 
         pchMessageStart[0] = 0xfa;
         pchMessageStart[1] = 0xbf;

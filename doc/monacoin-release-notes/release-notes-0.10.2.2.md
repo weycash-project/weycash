@@ -51,10 +51,10 @@ is included in as separate release-notes.  This section describes the Weycash-sp
 
 Protocol:
 - Scrypt Proof-of-Work instead of sha256d, however block hashes are sha256d for performance reasons.
-- Weycash TCP port 9401 (instead of 9401)
-- RPC TCP port 9402 (instead of 9402)
-- Testnet TCP port 19403 (instead of 19403)
-- Testnet RPC TCP port 19402 (instead of 19402)
+- Weycash TCP port 9392 (instead of 9392)
+- RPC TCP port 9393 (instead of 9393)
+- Testnet TCP port 19392 (instead of 19392)
+- Testnet RPC TCP port 19393 (instead of 19393)
 - 84 million coin limit  (instead of 21 million)
 - Magic 0xfbc0b6db       (instead of 0xf9beb4d9)
 - Target Block Time 2.5 minutes (instead of 10 minutes)
