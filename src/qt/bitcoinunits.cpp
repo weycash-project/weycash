@@ -42,9 +42,9 @@ QString BitcoinUnits::longName(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("MONA");
-    case mBTC: return QString("mMona");
-    case uBTC: return QString::fromUtf8("μMona");
+    case BTC: return QString("WEYC");
+    case mBTC: return QString("mWeyc");
+    case uBTC: return QString::fromUtf8("μWeyc");
     case SAT: return QString("Satoshi (sat)");
     default: return QString("???");
     }
@@ -64,9 +64,9 @@ QString BitcoinUnits::description(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("Weycashs");
-    case mBTC: return QString("Milli-Weycashs (1 / 1" THIN_SP_UTF8 "000)");
-    case uBTC: return QString("Micro-Weycashs (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+    case BTC: return QString("Weycash");
+    case mBTC: return QString("Milli-Weycash (1 / 1" THIN_SP_UTF8 "000)");
+    case uBTC: return QString("Micro-Weycash (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
     case SAT: return QString("Satoshi (sat) (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
     default: return QString("???");
     }

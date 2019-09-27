@@ -224,10 +224,10 @@ with `-txconfirmtarget=<m>` (default: `2`).
 
 Sometimes, it is not possible to give good estimates, or an estimate
 at all. Therefore, a fallback value can be set with `-fallbackfee=<f>`
-(default: `0.0002` MONA/kB).
+(default: `0.0002` WEYC/kB).
 
 At all times, WeyCash Core will cap fees at `-maxtxfee=<x>` (default:
-0.10) MONA.
+0.10) WEYC.
 Furthermore, WeyCash Core will never create transactions paying less than
 the current minimum relay fee.
 Finally, a user can set the minimum fee rate for all transactions with

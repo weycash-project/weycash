@@ -92,7 +92,7 @@ descends from an invalid block is marked as such.
 Minimum relay fee lowered
 -------------------------
 
-The minimum relay fee `-minrelayfee` has been lowered to 0.01 mMona per kB (0.00001 MONA). This is to prepare for dropping the minimum transaction fee to 0.1 mMona per kB (0.0001 MONA) in the next release.
+The minimum relay fee `-minrelayfee` has been lowered to 0.01 mWeyc per kB (0.00001 WEYC). This is to prepare for dropping the minimum transaction fee to 0.1 mWeyc per kB (0.0001 WEYC) in the next release.
 
 Mempool replacement disabled by default
 ---------------------------------------
