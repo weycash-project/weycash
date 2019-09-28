@@ -76,8 +76,8 @@ public:
         strNetworkID = "main";
         consensus.nSubsidyHalvingInterval = 1051200;
         consensus.BIP16Height = 0;
-        consensus.BIP34Height = 0;
-        consensus.BIP34Hash = uint256S("982214e87d2a880c4d12214946cfe402cfe7e7bfb9addf3b5ae98c00b1e346ac");
+        consensus.BIP34Height = 1;
+        consensus.BIP34Hash = uint256S("492bcb7f621d8eaabd5aa3abcc1ee73ce1bedf7d4d232f50cde14018a73a56d1");
         consensus.BIP65Height = 977759;
         consensus.BIP66Height = 977759;
         consensus.powLimit = uint256S("00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"); 
@@ -106,7 +106,7 @@ public:
         consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000000000000000000");
 
         // By default assume that the signatures in ancestors of this block are valid.
-        consensus.defaultAssumeValid = uint256S("0x8ee1fd0a836d804422a100fb5c1ca7626c7a35b492c234146797f4a50f38eea8"); //1639061
+        consensus.defaultAssumeValid = uint256S("0x0"); //1639061
 
         // Hardfork params
         nSwitchKGWblock = 0;
@@ -127,9 +127,9 @@ public:
         vAlertPubKey[MAIN_KEY] = ParseHex("04fc55d919cdea21e8171fea24c3cf23864ff64a53404829ad50af86e1be1b8217115701b348d50c6aaba6983bc148d3c9e6fa8c11365889774fc1db6da6840c06");
         vAlertPubKey[SUB_KEY]  = ParseHex("042367fa06a8245f17c2137f6946e6084a2251b5a6a7123380cd0ff0d582d82ec32d939ed11c7774e949637dc47950817a80060a99fe7e516c0af43fa5a1a1b682");
 
-        genesis = CreateGenesisBlock(1569449474, 1036970, 0x1e0ffff0, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1569697067, 2517996, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x982214e87d2a880c4d12214946cfe402cfe7e7bfb9addf3b5ae98c00b1e346ac"));
+        assert(consensus.hashGenesisBlock == uint256S("0x492bcb7f621d8eaabd5aa3abcc1ee73ce1bedf7d4d232f50cde14018a73a56d1"));
         assert(genesis.hashMerkleRoot == uint256S("0xdf8892fb6631c1939a6ebe3e07b39a63b1cd7332f97a97336efb2d31cf19fcd0"));
 
         // Note that of those which support the service bits prefix, most only support a subset of
@@ -158,13 +158,13 @@ public:
 
         checkpointData = {
             {
-                {    0, uint256S("0x982214e87d2a880c4d12214946cfe402cfe7e7bfb9addf3b5ae98c00b1e346ac") }
+                {    0, uint256S("0x492bcb7f621d8eaabd5aa3abcc1ee73ce1bedf7d4d232f50cde14018a73a56d1") }
             }
         };
 
         chainTxData = ChainTxData{
             // Data as of block 99274770cb96287f9f105f6dd5512795ee87ec68ddd06699f90c0d574a07aa4c (height 1639000).
-            1569449474, // * UNIX timestamp of last known number of transactions
+            1569697067, // * UNIX timestamp of last known number of transactions
             0,    // * total number of transactions between genesis and that timestamp
                         //   (the tx=... number in the SetBestChain debug.log lines)
             0.0      // * estimated number of transactions per second after that timestamp
