@@ -184,7 +184,7 @@ public:
         strNetworkID = "test";
         consensus.nSubsidyHalvingInterval = 1051200;
         consensus.BIP16Height = 0; // always enforce P2SH BIP16 on regtest
-        consensus.BIP34Height = 0;
+        consensus.BIP34Height = 1;
         consensus.BIP34Hash = uint256S("6148da321fa29f640e95fd0bc9a68516b0fe976dbf30b92d8eeb4853d3b29e91");
         consensus.BIP65Height = -1;
         consensus.BIP66Height = -1;
@@ -213,7 +213,7 @@ public:
         consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000000000000000000");
 
         // By default assume that the signatures in ancestors of this block are valid.
-        consensus.defaultAssumeValid = uint256S("0x96cf1e01433486c480434a1384d897b9c395ad41dc33b0ea2c0e7fdcee34cfcf"); //500000
+        consensus.defaultAssumeValid = uint256S("0x0"); //500000
 
         pchMessageStart[0] = 0xd2;
         pchMessageStart[1] = 0xfd;
